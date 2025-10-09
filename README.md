@@ -1,15 +1,14 @@
-# Neural-Networks-for-Handwritten-Multiclass-Digit-Recognition
+## Neural Networks For Handwritten Multiclass Digit Recognition
 
-# 1 - Neural Networks
 
 We will use a neural network for multiclass classification to recognize the hand-written digits 0-9. This will utilize the softmax activation.
 
 
-## 1.1 Problem Statement
+### 1. Problem Statement
 
 We will use a neural network to recognize ten handwritten digits, 0-9. This is a multiclass classification task where one of n choices is selected. Automated handwritten digit recognition is widely used today - from recognizing zip codes (postal codes) on mail envelopes to recognizing amounts written on bank checks. 
 
-## 1.2 Dataset
+### 2. Dataset
 
 We will start by loading the dataset for this notebook. 
 
@@ -33,7 +32,7 @@ $$X =
     - `y = 0` if the image is of the digit `0`, `y = 7` if the image is of the digit `7` and so on.
 
 
-## 1.3 Model representation
+### 3. Model representation
 
 The neural network we will use in this notebook is describted below. 
 - This has two dense layers with ReLU activations followed by an output layer with a linear activation. 
